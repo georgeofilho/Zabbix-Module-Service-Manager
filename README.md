@@ -4,7 +4,7 @@ _Read this in other languages: [![pt-br](https://img.shields.io/badge/lang-pt--b
 
 **Zabbix Service Manager** is a modern and intuitive module for the Zabbix Web Interface designed to add specific service monitoring capabilities directly to hosts. It seamlessly integrates into the Zabbix UI, adding a dedicated view for managing and monitoring host-specific services.
 
-Developed by **George Filho - SuporTI Soluções Técnicas**.
+Developed by **George Filho**.
 
 ---
 
@@ -129,6 +129,6 @@ This section demonstrates the visual capabilities of the module.
 
 ## 📄 License & Credits
 
-**Copyright &copy; 2006-2026 by [George Filho - SuporTI Soluções Técnicas](https://georgeofilho.github.io).**
+**Copyright &copy; 2006-2026 by [George Filho](https://georgeofilho.github.io).**
 
 All rights reserved.
