@@ -1,0 +1,32 @@
+{
+    "manifest_version": 2,
+    "id": "servicemanager",
+    "name": "Zabbix Service Manager",
+    "namespace": "ServiceManager",
+    "version": "1.0",
+    "type": "module",
+    "description": "Module to add specific service monitoring to hosts",
+    "author": "SuporTI - George Filho",
+    "url": "",
+    "actions": {
+        "servicemanager.view": {
+            "class": "ServiceManagerView",
+            "view": "service.manager.view",
+            "layout": "layout.htmlpage"
+        },
+        "servicemanager.save": {
+            "class": "ServiceManagerSave",
+            "layout": "layout.json"
+        },
+        "servicemanager.delete": {
+            "class": "ServiceManagerDelete",
+            "layout": "layout.json"
+        }
+    },
+    "assets": {
+        "css": [
+            "service.manager.css"
+        ]
+    },
+    "config": {}
+}
